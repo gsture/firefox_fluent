@@ -73,7 +73,7 @@ padding: 3px !important;
 
 
 
-/* Round tabs and remove gab between tabs and navigation bar */
+/* Remove gab between tab and navigation bar */
 
 #nav-bar {
   margin-top: -4px !important;
@@ -96,3 +96,12 @@ border-radius:9px 9px 0px 0px !important;
 #tabs-newtab-button:hover > .toolbarbutton-icon { 
   background-color: #2D2D2D !important;
 }
+
+
+
+/* Reduce left spacer on non-maximized windows */
+
+.titlebar-spacer[type="pre-tabs"] {
+  width: 6px !important;
+}
+
