@@ -72,7 +72,8 @@ padding: 3px !important;
 }
 
 
-/* Remove gab between tab and navigation bar */
+
+/* Round tabs and remove gab between tabs and navigation bar */
 
 #nav-bar {
   margin-top: -4px !important;
@@ -82,6 +83,11 @@ padding: 3px !important;
 padding-top: 4px !important; 
 padding-bottom: 0px !important;
 }
+
+.tab-background, .tab-loading-burst { 
+border: none !important; 
+border-radius:9px 9px 0px 0px !important;
+} 
 
 
 
