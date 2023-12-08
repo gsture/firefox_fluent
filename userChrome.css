@@ -72,8 +72,25 @@ padding: 3px !important;
 }
 
 
+/* Remove gab between tab and navigation bar */
+
+#nav-bar {
+  margin-top: -4px !important;
+}
+
+#tabbrowser-tabs {
+padding-top: 4px !important; 
+padding-bottom: 0px !important;
+}
+
+
 
 /* Theme new tab button */
+
 #tabs-newtab-button:hover > .toolbarbutton-icon { 
   background-color: #2D2D2D !important;
+}
+
+#tabs-newtab-button > .toolbarbutton-icon { 
+
 }
