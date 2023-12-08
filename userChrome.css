@@ -22,6 +22,8 @@
 4. Copy paste code below this line in userChrome.css and save file */
 
 
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
 /*Hide Homepage Button*/
 
 #unified-extensions-button, #unified-extensions-button > .toolbarbutton-icon{
