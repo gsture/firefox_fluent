@@ -1,25 +1,23 @@
 
-/* Setup
+/* 
+Setup
+
 1. Enable userChrome customisation in about:config
-
-    Navigate to about:config in the address bar and accept the risks.
-
-    Search for toolkit.legacyUserProfileCustomizations.stylesheets and toggle it to true (by double clicking on it).
+    - Navigate to about:config in the address bar and accept the risks.
+    - Search for toolkit.legacyUserProfileCustomizations.stylesheets and toggle it to true (by double clicking on it).
 
 2. Locate and open your profile folder
-
-    Click on ☰ ➝ Help ➝ Troubleshooting Information or navigate to about:support in your address bar
-    Under Application Basics, click on the the Open Folder button. You should now see your profile folder.
+    - Click on ☰ ➝ Help ➝ Troubleshooting Information or navigate to about:support in your address bar
+    - Under Application Basics, click on the the Open Folder button. You should now see your profile folder.
 
 3. Create the folder and files
+    - Inside your profile folder, create a new folder named chrome (all lower case)
+    - Inside the chrome folder, create a new file, userChrome.css (case sensitive) or download and save this file in the chrome folder.
+    
+    Note: In Windows, you must disable the "Hide extensions for known file types" setting in Explorer. Once that's done, simply create a new text file (Right click ➝ New ➝ Text Document), then make sure to replace the .txt with .css
 
-    Inside your profile folder, create a new folder named chrome (all lower case)
-
-    Inside the chrome folder, create a new file, userChrome.css (case sensitive) or download and save this file in the chrome folder.
-        Note: In Windows, you must disable the "Hide extensions for known file types" setting in Explorer. Once that's done, simply create a new text file (Right click ➝ New ➝ Text Document), then make sure to replace the .txt with .css
-
-
-4. Copy paste code below this line in userChrome.css and save file */
+4. Copy paste code below this line in userChrome.css and save file 
+*/
 
 
 
