@@ -40,7 +40,6 @@ menupopup > :is(menuitem, menu):hover {
 }
 
 menupopup {
--moz-appearance:none !important;
   --panel-background: #2C2C2C !important;
   --panel-color: white !important;
   --panel-border-color: #3E3E3E !important;
