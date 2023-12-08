@@ -1,0 +1,62 @@
+
+/* Setup
+1. Enable userChrome customisation in about:config
+
+    Navigate to about:config in the address bar and accept the risks.
+
+    Search for toolkit.legacyUserProfileCustomizations.stylesheets and toggle it to true (by double clicking on it).
+
+2. Locate and open your profile folder
+
+    Click on ☰ ➝ Help ➝ Troubleshooting Information or navigate to about:support in your address bar
+    Under Application Basics, click on the the Open Folder button. You should now see your profile folder.
+
+3. Create the folder and files
+
+    Inside your profile folder, create a new folder named chrome (all lower case)
+
+    Inside the chrome folder, create a new file, userChrome.css (case sensitive) or download and save this file in the chrome folder.
+        Note: In Windows, you must disable the "Hide extensions for known file types" setting in Explorer. Once that's done, simply create a new text file (Right click ➝ New ➝ Text Document), then make sure to replace the .txt with .css
+
+
+4. Copy paste code below this line in userChrome.css and save file */
+
+
+/*Hide Homepage Button*/
+
+#unified-extensions-button, #unified-extensions-button > .toolbarbutton-icon{
+  width: 0px !important;
+  padding: 0px !important;
+}
+
+
+/*Theme Right Click Menu*/
+
+menupopup > :is(menuitem, menu):hover {
+  background-color: #353535 !important;
+}
+
+menupopup {
+  --panel-background: #2C2C2C !important;
+  --panel-color: white !important;
+  --panel-border-color: #3E3E3E !important;
+  --panel-seperator-color: #3E3E3E !important;
+}
+
+
+/*Theme Caption Buttons*/
+
+.titlebar-buttonbox-container {
+  margin-bottom: 17px !important;
+
+.titlebar-min:hover{
+  background: #2D2D2D !important;
+} 
+
+.titlebar-max:hover{
+  background: #2D2D2D !important;
+}
+
+.titlebar-close:hover{
+  background: #C42B1C !important;
+}
