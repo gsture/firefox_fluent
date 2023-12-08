@@ -21,12 +21,11 @@ Setup
 
 
 
-
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 /* Hide Homepage Button */
 
-#unified-extensions-button, #unified-extensions-button > .toolbarbutton-icon{
+#unified-extensions-button, #unified-extensions-button > .toolbarbutton-icon {
   width: 0px !important;
   padding: 0px !important;
 }
@@ -60,29 +59,21 @@ padding: 3px !important;
   margin-bottom: 17px !important;
 }
 
-.titlebar-min:hover{
+.titlebar-min:hover {
   background: #2D2D2D !important;
 } 
 
-.titlebar-max:hover{
+.titlebar-max:hover {
   background: #2D2D2D !important;
 }
 
-.titlebar-close:hover{
+.titlebar-close:hover {
   background: #C42B1C !important;
-}
-
-
-
-/* Remove gab between tab and navigation bar */
-
-#nav-bar{
-  margin-top: -3px !important;
 }
 
 
 
 /* Theme new tab button */
 #tabs-newtab-button:hover > .toolbarbutton-icon { 
-  background-color: #2D2D2D !important 
+  background-color: #2D2D2D !important;
 }
