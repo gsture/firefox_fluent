@@ -24,7 +24,7 @@
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-/*Hide Homepage Button*/
+/* Hide Homepage Button */
 
 #unified-extensions-button, #unified-extensions-button > .toolbarbutton-icon{
   width: 0px !important;
@@ -32,21 +32,29 @@
 }
 
 
-/*Theme Right Click Menu*/
+
+/* Theme Right Click Menu */
 
 menupopup > :is(menuitem, menu):hover {
   background-color: #353535 !important;
 }
 
 menupopup {
+-moz-appearance:none !important;
   --panel-background: #2C2C2C !important;
   --panel-color: white !important;
   --panel-border-color: #3E3E3E !important;
-  --panel-seperator-color: #3E3E3E !important;
 }
 
+menuseparator {
+-moz-appearance:none !important;
+color: #3E3E3E !important;
+padding: 3px !important;
+} 
 
-/*Theme Caption Buttons*/
+
+
+/* Theme Caption Buttons */
 
 .titlebar-buttonbox-container {
   margin-bottom: 17px !important;
