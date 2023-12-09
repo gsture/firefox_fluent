@@ -32,10 +32,26 @@ Setup
 
 
 
+
+/* Theme App Menu */
+#appMenu-popup toolbarbutton.subviewbutton:not([disabled], [open], :active):is(:hover) {
+    background-color: #353535 !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.appMenu-tp-separator,toolbarseparator { 
+    display: visible !important;
+    border-color: #3E3E3E !important;
+}
+
+
+
+
 /* Theme Right Click Menu */
 
 menupopup > :is(menuitem, menu):hover {
   background-color: #353535 !important;
+  border-radius: 7px 7px 7px 7px !important;
 }
 
 menupopup {
@@ -43,13 +59,15 @@ menupopup {
   --panel-background: #2C2C2C !important;
   --panel-color: white !important;
   --panel-border-color: #3E3E3E !important;
+  --panel-border-radius: 6px 6px 6px 6px !important;
 }
 
 menuseparator {
 -moz-appearance:none !important;
-color: #3E3E3E !important;
-padding: 3px !important;
+  color: #3E3E3E !important;
+  padding: 3px !important;
 } 
+
 
 
 
@@ -73,6 +91,7 @@ padding: 3px !important;
 
 
 
+
 /* Remove gab between tab and navigation bar */
 
 #nav-bar {
@@ -86,8 +105,9 @@ padding-bottom: 0px !important;
 
 .tab-background, .tab-loading-burst { 
 border: none !important; 
-border-radius:9px 9px 0px 0px !important;
+border-radius: 9px 9px 0px 0px !important;
 } 
+
 
 
 
@@ -99,9 +119,23 @@ border-radius:9px 9px 0px 0px !important;
 
 
 
+
 /* Reduce left spacer on non-maximized windows */
 
 .titlebar-spacer[type="pre-tabs"] {
   width: 6px !important;
 }
 
+
+
+
+/* Theme tooltips */
+
+tooltip {
+-moz-appearance: none !important; 
+  background: #2C2C2C !important; 
+  color: white !important; 
+  padding: 5px 8px 5px 8px !important;
+  border-radius: 3px !important;
+  border-color: grey !important;
+}
