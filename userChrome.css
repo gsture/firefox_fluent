@@ -32,18 +32,16 @@ Setup
 
 
 
-
 /* Theme App Menu */
 #appMenu-popup toolbarbutton.subviewbutton:not([disabled], [open], :active):is(:hover) {
     background-color: #353535 !important;
-    border-radius: 7px 7px 7px 7px !important;
+    border-radius:7px 7px 7px 7px !important;
 }
 
 .appMenu-tp-separator,toolbarseparator { 
     display: visible !important;
     border-color: #3E3E3E !important;
 }
-
 
 
 
@@ -70,7 +68,6 @@ menuseparator {
 
 
 
-
 /* Theme Caption Buttons */
 
 .titlebar-buttonbox-container {
@@ -91,8 +88,7 @@ menuseparator {
 
 
 
-
-/* Remove gab between tab and navigation bar */
+/* Theme tabs and remove gab between tab and navigation bar */
 
 #nav-bar {
   margin-top: -4px !important;
@@ -108,6 +104,9 @@ border: none !important;
 border-radius: 9px 9px 0px 0px !important;
 } 
 
+.tab-close-button:hover { 
+background-color: #393939 !important; 
+}
 
 
 
@@ -119,13 +118,11 @@ border-radius: 9px 9px 0px 0px !important;
 
 
 
-
 /* Reduce left spacer on non-maximized windows */
 
 .titlebar-spacer[type="pre-tabs"] {
   width: 6px !important;
 }
-
 
 
 
