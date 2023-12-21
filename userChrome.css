@@ -32,18 +32,16 @@ Setup
 
 
 
-
 /* Theme App Menu */
 #appMenu-popup toolbarbutton.subviewbutton:not([disabled], [open], :active):is(:hover) {
     background-color: #353535 !important;
-    border-radius:7px 7px 7px 7px !important;
+    border-radius: 7px 7px 7px 7px !important;
 }
 
 .appMenu-tp-separator,toolbarseparator { 
     display: visible !important;
     border-color: #3E3E3E !important;
 }
-
 
 
 
@@ -55,7 +53,7 @@ menupopup > :is(menuitem, menu):hover {
 }
 
 menupopup {
--moz-appearance:none !important;
+  -moz-appearance: none !important;
   --panel-background: #2C2C2C !important;
   --panel-color: white !important;
   --panel-border-color: #3E3E3E !important;
@@ -63,11 +61,10 @@ menupopup {
 }
 
 menuseparator {
--moz-appearance:none !important;
+  -moz-appearance: none !important;
   color: #3E3E3E !important;
   padding: 3px !important;
 } 
-
 
 
 
@@ -88,7 +85,6 @@ menuseparator {
 .titlebar-close:hover {
   background: #C42B1C !important;
 }
-
 
 
 
@@ -114,13 +110,11 @@ background-color: #393939 !important;
 
 
 
-
 /* Theme new tab button */
 
 #tabs-newtab-button:hover > .toolbarbutton-icon { 
   background-color: #2D2D2D !important;
 }
-
 
 
 
@@ -135,7 +129,7 @@ background-color: #393939 !important;
 /* Theme tooltips */
 
 tooltip {
--moz-appearance: none !important; 
+  -moz-appearance: none !important; 
   background: #2C2C2C !important; 
   color: white !important; 
   padding: 5px 8px 5px 8px !important;
@@ -162,4 +156,24 @@ tooltip {
   --in-content-button-background: #2D2D2D !important;
   --in-content-button-background-hover: #323232 !important;
   --in-content-button-background-active: #272727 !important;
+  border: 1px solid #3E3E3E;
+  border-radius: 8px;
+}
+
+
+
+/* Theme autocomplete */
+
+richlistbox {
+  background-color: #2C2C2C !important;
+  color: white !important;
+  border-color: red;
+}
+
+.autocomplete-richlistitem:hover {
+  background-color: #383838 !important;
+}
+
+panel[type="autocomplete-richlistbox"] {
+  --panel-border-color: #3E3E3E !important;
 }
