@@ -32,6 +32,7 @@ Setup
 
 
 
+
 /* Theme App Menu */
 #appMenu-popup toolbarbutton.subviewbutton:not([disabled], [open], :active):is(:hover) {
     background-color: #353535 !important;
@@ -42,6 +43,7 @@ Setup
     display: visible !important;
     border-color: #3E3E3E !important;
 }
+
 
 
 
@@ -68,6 +70,7 @@ menuseparator {
 
 
 
+
 /* Theme Caption Buttons */
 
 .titlebar-buttonbox-container {
@@ -85,6 +88,7 @@ menuseparator {
 .titlebar-close:hover {
   background: #C42B1C !important;
 }
+
 
 
 
@@ -110,11 +114,13 @@ background-color: #393939 !important;
 
 
 
+
 /* Theme new tab button */
 
 #tabs-newtab-button:hover > .toolbarbutton-icon { 
   background-color: #2D2D2D !important;
 }
+
 
 
 
@@ -135,4 +141,25 @@ tooltip {
   padding: 5px 8px 5px 8px !important;
   border-radius: 3px !important;
   border-color: grey !important;
+}
+
+
+
+/* Theme close tabs warning */
+
+#commonDialogWindow {
+  --in-content-page-background: #262626 !important;
+  --in-content-page-color: white !important;
+  --in-content-primary-button-text-color: black !important;
+  --in-content-primary-button-text-color-hover: black !important;
+  --in-content-primary-button-text-color-active: #3D3D3D !important;
+  --in-content-primary-button-background: #4CC2FF !important;
+  --in-content-primary-button-background-hover: #47B1E8 !important;
+  --in-content-primary-button-background-active: #42A1D2 !important;
+  --in-content-button-text-color: white !important;
+  --in-content-button-text-color-hover: white !important;
+  --in-content-button-text-color-active: #949494 !important;
+  --in-content-button-background: #2D2D2D !important;
+  --in-content-button-background-hover: #323232 !important;
+  --in-content-button-background-active: #272727 !important;
 }
