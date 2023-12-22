@@ -75,7 +75,17 @@ menuseparator {
 -moz-appearance:none !important;
   color: grey !important;
   padding: 3px !important;
-} 
+}
+
+#context-navigation > .menuitem-iconic[_moz-menuactive] {
+  &:not([disabled]) {
+    background-color: #353535 !important;
+  }
+
+  &[disabled] {
+    background-color: transparent !important;
+  }
+}
 
 
 
