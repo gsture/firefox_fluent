@@ -45,6 +45,9 @@ Setup
     border: 1px solid #353535 !important;
 }
 
+#appMenu-popup {
+  --panel-border-color: #3E3E3E !important;
+}
 
 
 /* Theme right click menu */
@@ -69,7 +72,7 @@ menupopup {
 
 menuseparator {
 -moz-appearance:none !important;
-  color: #3E3E3E !important;
+  color: grey !important;
   padding: 3px !important;
 } 
 
