@@ -35,7 +35,7 @@ Setup
 
 /* Theme app menu */
 
-#appMenu-popup toolbarbutton.subviewbutton:not([disabled], [open], :active):is(:hover) {
+#appMenu-popup toolbarbutton.subviewbutton:hover {
     background-color: #353535 !important;
     border-radius: 6px !important;
 }
@@ -48,6 +48,7 @@ Setup
 #appMenu-popup {
   --panel-border-color: #3E3E3E !important;
 }
+
 
 
 /* Theme right click menu */
