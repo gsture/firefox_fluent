@@ -24,6 +24,7 @@ Setup
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 
+
 /* Theme page action buttons */
 
 #nav-bar {
@@ -204,4 +205,62 @@ richlistbox {
 
 panel[type="autocomplete-richlistbox"] {
   --panel-border-color: #3E3E3E !important;
+}
+
+
+
+/* Library toolbar */
+
+#placesToolbar {
+  background-color: #2C2C2C !important;
+}
+
+
+
+/* Library toolbar buttons */
+
+#placesToolbar > #back-button > .toolbarbutton-icon,
+#placesToolbar > #forward-button > .toolbarbutton-icon {
+  display: none !important;
+}
+
+#placesMenu > menu {
+  border: none !important;
+  background-color: #2C2C2C !important;
+}
+
+#placesMenu > menu:hover {
+  -moz-appearance: none !important;
+  background-color: #383838 !important;
+}
+
+#placesMenu > menu > .menubar-text {
+  color: white !important;
+}
+
+#clearDownloadsButton {
+  color: white !important;
+}
+
+#clearDownloadsButton[disabled] {
+  opacity: .5 !important;
+}
+
+#clearDownloadsButton:hover {
+  color: white !important;
+background-color: #383838 !important;
+}
+
+
+
+/* Library searchbox */
+
+#searchFilter {
+  -moz-appearance: none !important;
+  background-color: #383838 !important;
+  color: white !important;
+}
+
+.textbox-search-sign {
+  color: white !important;
 }
