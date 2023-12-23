@@ -146,12 +146,10 @@ menuseparator {
   background-color: #2D2D2D !important;
 }
 
-
-
 #tabs-newtab-button {
-  --uc-newtab-button-height: 24px;
-  --uc-newtab-button-width: 31px;
-  --uc-newtab--button-icon-size: 14px;
+  --uc-newtab-button-height: 24px !important;
+  --uc-newtab-button-width: 31px !important;
+  --uc-newtab--button-icon-size: 14px !important;
   padding-top: calc(var(--tab-min-height) - var(--uc-newtab-button-height) - 4px) !important;
 
   > .toolbarbutton-icon {
@@ -204,8 +202,8 @@ tooltip {
   --in-content-button-background: #2D2D2D !important;
   --in-content-button-background-hover: #323232 !important;
   --in-content-button-background-active: #272727 !important;
-  border: 1px solid #3E3E3E;
-  border-radius: 7px;
+  border: 1px solid #3E3E3E !important;
+  border-radius: 7px !important;
 }
 
 
@@ -287,10 +285,11 @@ background-color: #383838 !important;
 
 
 /* Theme downloads menu */
+
 #downloadsPanel-mainView {
-  --arrowpanel-background: #2C2C2C;
-  --panel-item-hover-bgcolor: #353535;
-  --panel-item-active-bgcolor: #353535;
-  border: 1px solid #3E3E3E;
-  border-radius: 7px;
+  --arrowpanel-background: #2C2C2C !important;
+  --panel-item-hover-bgcolor: #353535 !important;
+  --panel-item-active-bgcolor: #353535 !important;
+  border: 1px solid #3E3E3E !important;
+  border-radius: 7px !important;
 }
