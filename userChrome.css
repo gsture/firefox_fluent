@@ -146,8 +146,22 @@ menuseparator {
   background-color: #2D2D2D !important;
 }
 
-#TabsToolbar :is(#tabs-newtab-button, #new-tab-button) .toolbarbutton-icon {
-padding: calc(var(--toolbarbutton-inner-padding) + 1px) !important;
+
+
+#tabs-newtab-button {
+  --uc-newtab-button-height: 24px;
+  --uc-newtab-button-width: 31px;
+  --uc-newtab--button-icon-size: 14px;
+  padding-top: calc(var(--tab-min-height) - var(--uc-newtab-button-height) - 4px) !important;
+
+  > .toolbarbutton-icon {
+    width: var(--uc-newtab-button-width) !important;
+    height: var(--uc-newtab-button-height) !important;
+    padding-block: calc((var(--uc-newtab-button-height) - var(--uc-newtab--button-icon-size)) / 2) !important;
+    padding-inline: calc((var(--uc-newtab-button-width) - var(--uc-newtab--button-icon-size)) / 2) !important;
+  }
+  padding-bottom: 5px !important;
+  margin-left: 3px !important;
 }
 
 
@@ -196,21 +210,21 @@ tooltip {
 
 
 
-/* Theme autocomplete menu
+/* Theme autocomplete menu */
 
-richlistbox {
+#PopupAutoComplete > richlistbox {
   background-color: #2C2C2C !important;
   color: white !important;
+  --panel-border-color: #3E3E3E !important;
 }
 
-.autocomplete-richlistitem:hover {
+#PopupAutoComplete > richlistbox > richlistitem:hover {
   background-color: #383838 !important;
 }
 
 panel[type="autocomplete-richlistbox"] {
   --panel-border-color: #3E3E3E !important;
 }
- */
 
 
 
