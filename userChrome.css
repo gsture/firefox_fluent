@@ -146,6 +146,10 @@ menuseparator {
   background-color: #2D2D2D !important;
 }
 
+#TabsToolbar :is(#tabs-newtab-button, #new-tab-button) .toolbarbutton-icon {
+padding: calc(var(--toolbarbutton-inner-padding) + 1px) !important;
+}
+
 
 
 /* Reduce left spacer on non-maximized windows */
@@ -192,7 +196,7 @@ tooltip {
 
 
 
-/* Theme autocomplete menu */
+/* Theme autocomplete menu
 
 richlistbox {
   background-color: #2C2C2C !important;
@@ -206,6 +210,7 @@ richlistbox {
 panel[type="autocomplete-richlistbox"] {
   --panel-border-color: #3E3E3E !important;
 }
+ */
 
 
 
@@ -263,4 +268,15 @@ background-color: #383838 !important;
 
 .textbox-search-sign {
   color: white !important;
+}
+
+
+
+/* Theme downloads menu */
+#downloadsPanel-mainView {
+  --arrowpanel-background: #2C2C2C;
+  --panel-item-hover-bgcolor: #353535;
+  --panel-item-active-bgcolor: #353535;
+  border: 1px solid #3E3E3E;
+  border-radius: 7px;
 }
