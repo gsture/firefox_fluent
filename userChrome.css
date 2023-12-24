@@ -172,19 +172,6 @@ menuseparator {
 
 
 
-/* Theme tooltips */
-
-tooltip {
-  -moz-appearance: none !important; 
-  background: #2C2C2C !important; 
-  color: white !important; 
-  padding: 5px 8px 5px 8px !important;
-  border-radius: 3px !important;
-  border-color: grey !important;
-}
-
-
-
 /* Theme close tabs warning */
 
 #commonDialogWindow {
