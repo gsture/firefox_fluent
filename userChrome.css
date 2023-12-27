@@ -32,6 +32,8 @@ Setup
   --urlbar-box-active-bgcolor: #3F3F3F !important;
 }
 
+
+
 /* Change margin toolbarbuttons */
 
 #nav-bar toolbarbutton { 
@@ -39,6 +41,12 @@ Setup
   padding-right: 0px !important;
   margin-left: 7px !important; 
   margin-right: 7px !important;  
+}
+
+#personal-bookmarks .bookmark-item {
+  margin-right: 0x !important;  
+  padding-left: 6px !important;  
+  padding-right: 6px !important;
 }
 
 
@@ -145,6 +153,10 @@ menuseparator {
 
 .tab-close-button:hover { 
   background-color: #393939 !important; 
+}
+
+.tabbrowser-tab{
+  padding-inline: 1px !important;
 }
 
 
