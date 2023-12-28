@@ -43,10 +43,19 @@ Setup
   margin-right: 7px !important;  
 }
 
+
+
+/* Blend in bookmark item on toolbar */
+
 #personal-bookmarks .bookmark-item {
   margin-right: 0x !important;  
-  padding-left: 6px !important;  
-  padding-right: 6px !important;
+  padding-left: 8px !important;  
+  padding-right: 8px !important;
+}
+
+#nav-bar #PlacesToolbarItems > .bookmark-item {
+height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+align-self: center !important;
 }
 
 
