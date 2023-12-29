@@ -25,6 +25,7 @@ Setup
 
 
 
+
 /* Theme page action buttons */
 
 #nav-bar {
@@ -199,10 +200,15 @@ border-bottom: 3px solid #202020 !important;
 }
 
 
-/* Reduce left spacer on non-maximized windows */
+
+/* Reduce left spacer on non-maximized windows and add spacer for maximized windows */
 
 .titlebar-spacer[type="pre-tabs"] {
-  width: 5px !important;
+  display: none !important;
+}
+
+.tabbrowser-tab:first-of-type { 
+  padding-left: 10px !important;
 }
 
 
