@@ -1,1 +1,1 @@
-![image](https://github.com/gsture/firefox_fluent/assets/31156691/d9ccf057-d8a9-416c-a2fc-13850d52001d)
+![image](https://github.com/gsture/firefox_fluent/assets/31156691/a1fb300e-5ccc-450c-a648-d5d64c305f36)
