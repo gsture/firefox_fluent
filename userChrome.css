@@ -107,22 +107,27 @@ align-self: center !important;
 
 /* Theme right click menu */
 
-menupopup > :is(menuitem, menu):hover {
-  background-color: #353535 !important;
-  border-radius: 6px !important;
-}
-
-menupopup > :is(menuitem, menu) {
-  background-color: #2C2C2C !important;
-  border-radius: 6px !important;
-}
-
-menupopup {
--moz-appearance:none !important;
+menupopup:not(.in-menulist, .toolbar-menupopup, .toolbar-menupopup menupopup) {
+  -moz-appearance: none !important;
   --panel-background: #2C2C2C !important;
   --panel-color: white !important;
   --panel-border-color: #3E3E3E !important;
   --panel-border-radius: 6px !important;
+
+  menu,
+  menuitem {
+    border-radius: 6px !important;
+    
+    &[_moz-menuactive] {
+      &:not([disabled]) {
+        background-color: #353535 !important;
+      }
+      
+      &[disabled] {
+        background-color: transparent !important;
+      }
+    }
+  }
 }
 
 menuseparator {
