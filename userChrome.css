@@ -107,7 +107,7 @@ align-self: center !important;
 
 /* Theme right click menu */
 
-menupopup:not(.in-menulist, .toolbar-menupopup, .toolbar-menupopup menupopup) {
+menupopup:not(.in-menulist, .toolbar-menupopup menupopup) {
   -moz-appearance: none !important;
   --panel-background: #2C2C2C !important;
   --panel-color: white !important;
