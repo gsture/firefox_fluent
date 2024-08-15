@@ -25,7 +25,6 @@ Setup
 
 
 
-
 /* Theme page action buttons */
 
 #nav-bar {
@@ -172,6 +171,7 @@ menuseparator {
 
 #nav-bar {
   margin-top: -4px !important;
+  }
 }
 
 #tabbrowser-tabs {
