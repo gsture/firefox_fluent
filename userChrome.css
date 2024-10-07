@@ -78,11 +78,11 @@ align-self: center !important;
 
 
 
-/* Hide unified extention button */
+/* Hide unified extention button
 
 #unified-extensions-button, #unified-extensions-button > .toolbarbutton-icon {
   display: none !important;
-}
+}  */
 
 
 
