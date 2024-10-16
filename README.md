@@ -7,4 +7,5 @@ Works best with Windows UI transparency off: Windows settings > Personalization 
 To get the bookmarks folder next to the address bar: Firefox Right click -> Customize tool bar -> Drag "bookmark toolbar items" and place it after the address bar.
 
 
-![image](https://github.com/gsture/firefox_fluent/assets/31156691/a1fb300e-5ccc-450c-a648-d5d64c305f36)
+![{0F9541AB-7754-4BAE-9251-1A9E5B0CEFC2}](https://github.com/user-attachments/assets/67ed723a-2cd4-4247-a910-4b11c8b6c333)
+
