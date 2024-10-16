@@ -25,6 +25,17 @@ Setup
 
 
 
+/* Theme tab close button */
+
+.tab-close-button {
+  padding: 6px !important;
+  margin: 0px !important;
+  height: 25px !important;
+  width: 32px !important;
+  border-radius: 5px !important;
+}
+
+
 
 /* Theme page action buttons */
 
@@ -84,7 +95,6 @@ align-self: center !important;
 #unified-extensions-button > .toolbarbutton-icon {
 padding: 6px 8px 8px 8px !important;
 } 
-
 
 
 
@@ -186,7 +196,7 @@ menuseparator {
 } 
 
 .tab-close-button:hover { 
-  background-color: #393939 !important; 
+  background-color: #393939 !important;
 }
 
 .tabbrowser-tab{
