@@ -98,6 +98,7 @@ padding: 6px 8px 8px 8px !important;
 
 
 
+
 /* Theme app menu */
 
 #appMenu-popup toolbarbutton.subviewbutton:hover {
@@ -354,4 +355,18 @@ background-color: #383838 !important;
   --panel-item-active-bgcolor: #353535 !important;
   border: 1px solid #3E3E3E !important;
   border-radius: 7px !important;
+}
+
+
+
+/* Hide open all bookmarks in tabs menu item and separator */
+
+#PlacesToolbarItems .openintabs-menuitem,
+#placesContext>menuitem[id="placesContext_openContainer:tabs"],
+#placesContext>menuitem[id="placesContext_openContainer:tabs"]:not([hidden])+menuitem+#placesContext_openSeparator {
+display: none !important;
+}
+
+menuseparator { 
+display: none !important; 
 }
