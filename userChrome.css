@@ -25,6 +25,30 @@ Setup
 
 
 
+/* Unified extention button */
+
+#unified-extensions-button > .toolbarbutton-icon {
+    padding: 6px 8px 8px 8px !important;
+    margin-left: 6.5px;
+}
+
+
+
+/* Blend in bookmark item on toolbar */
+
+#personal-bookmarks .bookmark-item {
+    margin-right: 0px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+#nav-bar #PlacesToolbarItems > .bookmark-item {
+    height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+    align-self: center !important;
+}
+
+
+
 /* Theme tab close button */
 
 .tab-close-button {
@@ -45,11 +69,6 @@ Setup
     --urlbar-box-active-bgcolor: #3f3f3f !important;
 }
 
-#urlbar-container,
-#search-container {
-    border-radius: 50px !important;
-}
-
 
 
 /* Change margin toolbarbuttons */
@@ -63,7 +82,27 @@ Setup
 
 
 
-/* Round URLbar corners */
+/* Theme caption buttons */
+
+.titlebar-buttonbox-container {
+    margin-bottom: 17px !important;
+}
+
+.titlebar-min:hover {
+    background: #2d2d2d !important;
+}
+
+.titlebar-max:hover {
+    background: #2d2d2d !important;
+}
+
+.titlebar-close:hover {
+    background: #c42b1c !important;
+}
+
+
+
+/* Theme URL/search bar */
 
 #urlbar-background,
 #urlbar-input-container {
@@ -74,28 +113,19 @@ Setup
     --urlbar-icon-border-radius: calc(var(--toolbarbutton-border-radius) - 1px);
 }
 
-
-
-/* Blend in bookmark item on toolbar */
-
-#personal-bookmarks .bookmark-item {
-    margin-right: 0px !important;
-    padding-left: 8px !important;
-    padding-right: 8px !important;
+#urlbar {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
 }
 
-#nav-bar #PlacesToolbarItems > .bookmark-item {
-    height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
-    align-self: center !important;
+#urlbar-background,
+#searchbar {
+    box-shadow: none !important;
 }
 
-
-
-/* Unified extention button */
-
-#unified-extensions-button > .toolbarbutton-icon {
-    padding: 6px 8px 8px 8px !important;
-    margin-left: 6.5px;
+#urlbar-container,
+#search-container {
+    border-radius: 50px !important;
 }
 
 
@@ -158,26 +188,6 @@ menuseparator {
     &[disabled] {
         background-color: transparent !important;
     }
-}
-
-
-
-/* Theme caption buttons */
-
-.titlebar-buttonbox-container {
-    margin-bottom: 17px !important;
-}
-
-.titlebar-min:hover {
-    background: #2d2d2d !important;
-}
-
-.titlebar-max:hover {
-    background: #2d2d2d !important;
-}
-
-.titlebar-close:hover {
-    background: #c42b1c !important;
 }
 
 
